@@ -1,0 +1,2 @@
+# RxiqiMonitor
+Discord Bot Monitor
