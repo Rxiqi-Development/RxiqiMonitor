@@ -1,6 +1,7 @@
 {
 
-    "botID": "BOT-CLIENT-ID-HERE",
-    "token"  : "PUT-YOUR-BOT-TOKEN-HERE"
+    "token" : "MONITOR BOT TOKEN",
+    "botID" : "BOT ID",
+    "channelName" : "CHANNEL NAME"
     
 } 
