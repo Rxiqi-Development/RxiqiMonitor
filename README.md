@@ -14,6 +14,10 @@ Activity: Steering me in the right direction to make this bot work.
   <b>ᴊʏɢᴜʏ#9535</b>
 Activity: Helped me finally get it working so it doesnt spam like it was doing initially.
 
+# My Inspiration
+<b>Precious</b><p>
+Activity: She is my entire inspiration, if it wasn't for Precious I would never of discovered the wonders of [Discord.JS](https://discordjs.guide/#/)
+
 # Usage
 Install the required node modules
 `npm i discord.js`
