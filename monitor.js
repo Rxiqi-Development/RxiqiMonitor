@@ -26,7 +26,7 @@ client.on('ready', () => {
         console.log(`\n[CHANNEL_MISSING]: I need the channel to post in to be able to function properly.\nMake sure the name is in lowercase.\n`)
         process.exit(1);
     }
-    console.log(`Bot Monitor v1.0.3 is Online.\n\nMonitoring Bot Name: ${client.user.tag}.\nMonitoring In Guild: ${guild}\nMonitoring Posting In: ${channel.name}`)
+    console.log(`Bot Monitor v1.0.2 is Online.\n\nMonitoring Bot Name: ${client.user.tag}.\nMonitoring In Guild: ${guild}\nMonitoring Posting In: ${channel.name}`)
 });
 
 client.on('presenceUpdate', (oldMember, newMember) => {
