@@ -14,5 +14,6 @@ Activity: Steering me in the right direction to make this bot work.
   <b>ᴊʏɢᴜʏ#9535</b>
 Activity: Helped me finally get it working so it doesnt spam like it was doing initially.
 
-
+# Support Server
+[Join Here](https://discord.gg/ufxFPaZ)
 
