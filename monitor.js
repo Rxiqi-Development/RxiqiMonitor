@@ -5,7 +5,11 @@ client.config = require('./settings/config.json');
 
 client.on('ready', () => {
     const guild = client.guilds.first();
+    
     const channel = guild.channels.find(c => c.name === client.config.channelName);
+    if(!client.users.id === client.config.botID){
+         console.log("\n[BOT_NOT_FOUND]: I need to be in the same guild as the bot I am monitoring.\n")
+    }
     if(!client.config.token){
         console.log("\n[NO_TOKEN_FOUND]: I cannot connect to Discord without a valid token.\n");
         process.exit(1);
@@ -19,14 +23,14 @@ client.on('ready', () => {
         process.exit(1);
     }
     if(!guild){
-         console.log("\n[NO_GUILD_FOUND]:I need to be in the same guild as the bot I am monitoring.\n");
+         console.log("\n[NO_GUILD_FOUND]: Please put me in a guild.\n");
          process.exit(1);
     }
     if(!channel){
         console.log(`\n[CHANNEL_MISSING]: I need the channel to post in to be able to function properly.\nMake sure the name is in lowercase.\n`)
         process.exit(1);
     }
-    console.log(`Bot Monitor v1.0.2 is Online.\n\nMonitoring Bot Name: ${client.user.tag}.\nMonitoring In Guild: ${guild}\nMonitoring Posting In: ${channel.name}`)
+    console.log(`Bot Monitor v1.0.3 is Online.\n\nMonitoring Bot Name: ${client.user.tag}.\nMonitoring In Guild: ${guild}.\nMonitoring Posting In: ${channel.name}.`)
 });
 
 client.on('presenceUpdate', (oldMember, newMember) => {
