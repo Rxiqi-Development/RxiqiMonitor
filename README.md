@@ -14,6 +14,16 @@ Activity: Steering me in the right direction to make this bot work.
   <b>ᴊʏɢᴜʏ#9535</b>
 Activity: Helped me finally get it working so it doesnt spam like it was doing initially.
 
+# Usage
+Install the required node modules
+`npm i discord.js`
+then fill in the 'config.js' with the relative information for the monitor to monitor your bot.
+
+Once you have done the above open up Command Prompt or Powershell and type `node monitor.js` and it will load the script,
+make sure to invite the monitor bot your discord server first and that the bot its monitoring is in the same guild.
+
+Leave this script running 24/7 to ensure 24/7 Monitoring.
+
 # Support Server
 [Join Here](https://discord.gg/ufxFPaZ)
 
