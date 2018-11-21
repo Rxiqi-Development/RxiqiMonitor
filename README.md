@@ -1,4 +1,4 @@
-[![Discord] https://discordapp.com/api/guilds/506005416510095371/embed.png](https://discord.gg/ufxFPaZ)
+ [![Discord](https://discordapp.com/api/guilds/506005416510095371/embed.png)](https://discord.gg/ufxFPaZ)
 
 # Rxiqi Bot Monitor
 This is one of my many upcoming projects.
