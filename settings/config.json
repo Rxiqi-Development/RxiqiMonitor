@@ -1,7 +1,6 @@
 {
-
-    "token" : "MONITOR BOT TOKEN",
-    "botID" : "BOT ID",
-    "channelName" : "CHANNEL NAME"
-    
+    "token" : "",
+    "botID" : "",
+    "channelID" : "",
+    "guildID": ""    
 } 
